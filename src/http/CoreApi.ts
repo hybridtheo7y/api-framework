@@ -43,7 +43,7 @@ export default class CoreApi extends Client {
   static async getAllByLetter(): Promise<AxiosResponse<{ groups: { title: string; cats: Cat[] }[] }>> {
     let response: AxiosResponse;
     try {
-      response = await this.coreApiHttpClient.get(`${this.api}/allByLetter?limit=2`);
+      response = await this.coreApiHttpClient.get(`${this.api}/allByLetter?limit=1`);
     } catch (error) {
       console.error(error);
     }

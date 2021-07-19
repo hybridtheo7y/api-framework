@@ -14,8 +14,8 @@ export default class Steps {
 
 
   private static async getAllByLetter(): Promise<AxiosResponse<{ groups: { title: string; cats: Cat[] }[] }>> {
-    return await allure.step(`выполнен запрос GET /getAllByLetter c параметром limit=2`, async () => {
-      const msg = `Используя метод GET /getAllByLetter c параметром limit=2 получаем список котов`
+    return await allure.step(`выполнен запрос GET /getAllByLetter c параметром limit=1`, async () => {
+      const msg = `Используя метод GET /getAllByLetter c параметром limit=1 получаем список котов`
       console.info('тест 1 🚀:',  msg);
       const response = await CoreApi.getAllByLetter();
       const data = JSON.stringify(response.data, null, 2);

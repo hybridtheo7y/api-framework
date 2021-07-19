@@ -1,40 +1,40 @@
 [ {
-  "uid" : "bc6e758916aa22f9",
+  "uid" : "70170d14d75c4d89",
   "name" : "Удаление найденного кота",
   "time" : {
-    "start" : 1626680321856,
-    "stop" : 1626680322360,
-    "duration" : 504
+    "start" : 1626684048065,
+    "stop" : 1626684048326,
+    "duration" : 261
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "41cf2dace7e5a6f8",
-  "name" : "Выдергиваем рандомное ID и проверяем наличие такого кота",
-  "time" : {
-    "start" : 1626680321620,
-    "stop" : 1626680321852,
-    "duration" : 232
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59c410bb6c1b3d15",
-  "name" : "Получение списка котов методом GET /getAllByLetter ",
-  "time" : {
-    "start" : 1626680320870,
-    "stop" : 1626680321612,
-    "duration" : 742
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3931a81864778505",
+  "uid" : "b114800c1374c960",
   "name" : "Проверка того, что кот удален",
   "time" : {
-    "start" : 1626680322365,
-    "stop" : 1626680322623,
-    "duration" : 258
+    "start" : 1626684048330,
+    "stop" : 1626684048561,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a378994f617747a0",
+  "name" : "Выдергиваем рандомное ID и проверяем наличие такого кота",
+  "time" : {
+    "start" : 1626684047811,
+    "stop" : 1626684048060,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92a100d2c414655b",
+  "name" : "Получение списка котов методом GET /getAllByLetter ",
+  "time" : {
+    "start" : 1626684047409,
+    "stop" : 1626684047802,
+    "duration" : 393
   },
   "status" : "passed",
   "severity" : "normal"

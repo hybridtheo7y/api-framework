@@ -12,12 +12,9 @@ describe('Удаление случайного кота', async () => {
 
   it('Получение списка котов методом GET /getAllByLetter ', async () => {
     const response = await Steps.common.stepGetAllByLetter();
-    let i: number = 0;
-    let j: number = 0;
+    let i = 0;
       for (i = 0; i < response.data.groups.length; i++) {
-        for (j = 0; j < 2; j++) {
-          Id_Array.push(response.data.groups[i].cats[j].id)
-          }
+        Id_Array.push(response.data.groups[i].cats[0].id)
         }
     const status: string = '200';
     await allure.step(
