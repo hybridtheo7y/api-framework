@@ -1,0 +1,33 @@
+{
+  "uid" : "563ed425e2d23c30",
+  "name" : "Проверка того, что кот удален",
+  "fullName" : "Проверка того, что кот удален",
+  "historyId" : "3dd65acdddede38a2dc80ccdf9e0125a",
+  "time" : {
+    "start" : 1626667075112,
+    "stop" : 1626667075438,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "563ed425e2d23c30.json",
+  "parameterValues" : [ ]
+}

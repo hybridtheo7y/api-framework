@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Удаление случайного кота",
+    "children" : [ {
+      "name" : "Получение списка котов методом GET /getAllByLetter ",
+      "uid" : "59c410bb6c1b3d15",
+      "parentUid" : "ed60c01780066fa1bf72f4b786e012a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626680320870,
+        "stop" : 1626680321612,
+        "duration" : 742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Выдергиваем рандомное ID и проверяем наличие такого кота",
+      "uid" : "41cf2dace7e5a6f8",
+      "parentUid" : "ed60c01780066fa1bf72f4b786e012a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626680321620,
+        "stop" : 1626680321852,
+        "duration" : 232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Удаление найденного кота",
+      "uid" : "bc6e758916aa22f9",
+      "parentUid" : "ed60c01780066fa1bf72f4b786e012a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626680321856,
+        "stop" : 1626680322360,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка того, что кот удален",
+      "uid" : "3931a81864778505",
+      "parentUid" : "ed60c01780066fa1bf72f4b786e012a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626680322365,
+        "stop" : 1626680322623,
+        "duration" : 258
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ed60c01780066fa1bf72f4b786e012a8"
+  } ]
+}

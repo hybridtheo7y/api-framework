@@ -1,0 +1,106 @@
+{
+  "uid" : "cf1b0457929fb937",
+  "name" : "Поиск случайного ID",
+  "fullName" : "Поиск случайного ID",
+  "historyId" : "09862e2c0b68b2ca0030f1d98b5b4530",
+  "time" : {
+    "start" : 1626669243862,
+    "stop" : 1626669244365,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "выполнен запрос GET /getAllByLetter c параметром limit=2",
+      "time" : {
+        "start" : 1626669243868,
+        "stop" : 1626669244354,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dfdea9e30878346",
+        "name" : "attachment",
+        "source" : "6dfdea9e30878346.json",
+        "type" : "application/json",
+        "size" : 17915
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "выполнена проверка соответствия значения имен кота из запроса с ожидаемым",
+      "time" : {
+        "start" : 1626669244354,
+        "stop" : 1626669244361,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "выполнена проверка соответствия значений",
+        "time" : {
+          "start" : 1626669244354,
+          "stop" : 1626669244361,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3892057281536d0a",
+          "name" : "expected",
+          "source" : "3892057281536d0a.txt",
+          "type" : "text/plain",
+          "size" : 3
+        }, {
+          "uid" : "b03406674221f135",
+          "name" : "actual",
+          "source" : "b03406674221f135.txt",
+          "type" : "text/plain",
+          "size" : 3
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf1b0457929fb937.json",
+  "parameterValues" : [ ]
+}

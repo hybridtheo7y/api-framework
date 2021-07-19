@@ -1,0 +1,41 @@
+[ {
+  "uid" : "bc6e758916aa22f9",
+  "name" : "Удаление найденного кота",
+  "time" : {
+    "start" : 1626680321856,
+    "stop" : 1626680322360,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41cf2dace7e5a6f8",
+  "name" : "Выдергиваем рандомное ID и проверяем наличие такого кота",
+  "time" : {
+    "start" : 1626680321620,
+    "stop" : 1626680321852,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59c410bb6c1b3d15",
+  "name" : "Получение списка котов методом GET /getAllByLetter ",
+  "time" : {
+    "start" : 1626680320870,
+    "stop" : 1626680321612,
+    "duration" : 742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3931a81864778505",
+  "name" : "Проверка того, что кот удален",
+  "time" : {
+    "start" : 1626680322365,
+    "stop" : 1626680322623,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

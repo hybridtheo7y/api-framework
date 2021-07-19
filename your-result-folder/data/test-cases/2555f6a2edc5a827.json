@@ -1,0 +1,133 @@
+{
+  "uid" : "2555f6a2edc5a827",
+  "name" : "allure2",
+  "fullName" : "allure2",
+  "historyId" : "bc608bc9ce4b5740277829db22b2c334",
+  "time" : {
+    "start" : 1626661010247,
+    "stop" : 1626661010555,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "выполнен запрос GET /get-by-id c параметром 2254781",
+      "time" : {
+        "start" : 1626661010249,
+        "stop" : 1626661010539,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c1b0be88de60293",
+        "name" : "attachment",
+        "source" : "5c1b0be88de60293.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "выполнена проверка соответствия значения имен кота из запроса с ожидаемым",
+      "time" : {
+        "start" : 1626661010550,
+        "stop" : 1626661010555,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f8d23ec5b108254",
+        "name" : "expected",
+        "source" : "2f8d23ec5b108254.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "93b6dc5d75e4aa0c",
+        "name" : "actual",
+        "source" : "93b6dc5d75e4aa0c.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка имени кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ccbbf082a175c1ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626629578058,
+        "stop" : 1626629578286,
+        "duration" : 228
+      }
+    }, {
+      "uid" : "d92e98225e0bc276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626590941130,
+        "stop" : 1626590941376,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "b4de32992ebaad0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589630267,
+        "stop" : 1626589630556,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "c5c0d507b35dd6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589445204,
+        "stop" : 1626589445467,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "3fb9206411e1ae8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589327438,
+        "stop" : 1626589327707,
+        "duration" : 269
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2555f6a2edc5a827.json",
+  "parameterValues" : [ ]
+}

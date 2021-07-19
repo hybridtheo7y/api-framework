@@ -1,0 +1,106 @@
+{
+  "uid" : "cd1ce823c5de1609",
+  "name" : "allure",
+  "fullName" : "allure",
+  "historyId" : "bcf5582ba8e49cdcdb5ccb872a6503f0",
+  "time" : {
+    "start" : 1626661009852,
+    "stop" : 1626661010236,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "выполнен запрос GET /get-by-id c параметром 2254781",
+      "time" : {
+        "start" : 1626661010224,
+        "stop" : 1626661010225,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5fc567f2abd2768b",
+      "name" : "testAttachment",
+      "source" : "5fc567f2abd2768b.json",
+      "type" : "application/json",
+      "size" : 162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка имени кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a01158e8a7cbb49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626629577662,
+        "stop" : 1626629578049,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "710213031daf6c65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626590940712,
+        "stop" : 1626590941120,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "c5abd81cf41cab09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589629855,
+        "stop" : 1626589630258,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "e610f8f26a644683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589444783,
+        "stop" : 1626589445197,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "226789e4a5054c99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626589327049,
+        "stop" : 1626589327427,
+        "duration" : 378
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd1ce823c5de1609.json",
+  "parameterValues" : [ ]
+}

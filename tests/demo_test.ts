@@ -25,7 +25,7 @@ describe('Проверка функционала добавления кото�
   it('Проверка статуса ответа при удалении несуществующего кота', async () => {
     const status: number = 404;
 
-    const response = await CoreApi.removeCat(103826);
+    const response = await CoreApi.removeCat(103);
 
     assert.ok(
       response.status === status,

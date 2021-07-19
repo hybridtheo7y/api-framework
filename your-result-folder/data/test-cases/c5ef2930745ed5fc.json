@@ -1,0 +1,33 @@
+{
+  "uid" : "c5ef2930745ed5fc",
+  "name" : "Удаление найденного кота",
+  "fullName" : "Удаление найденного кота",
+  "historyId" : "1ada4d056f70c9bcacc3f1bfc6bd55de",
+  "time" : {
+    "start" : 1626667074870,
+    "stop" : 1626667075109,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5ef2930745ed5fc.json",
+  "parameterValues" : [ ]
+}

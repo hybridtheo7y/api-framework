@@ -1,0 +1,241 @@
+{
+  "uid" : "fb6b36a43657d4e",
+  "name" : "Проверка того, что кот удален",
+  "fullName" : "Проверка того, что кот удален",
+  "historyId" : "3dd65acdddede38a2dc80ccdf9e0125a",
+  "time" : {
+    "start" : 1626669498208,
+    "stop" : 1626669498428,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d389b012f7be1fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626669244799,
+        "stop" : 1626669244999,
+        "duration" : 200
+      }
+    }, {
+      "uid" : "2b6dd853a774ed7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626668093632,
+        "stop" : 1626668093848,
+        "duration" : 216
+      }
+    }, {
+      "uid" : "c766aa3c8e7b3e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667967474,
+        "stop" : 1626667967677,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "9890f8c73aebdab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667827611,
+        "stop" : 1626667827828,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "8464de86f7cf799c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667690658,
+        "stop" : 1626667690914,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "c3a3edb6764ec07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667421943,
+        "stop" : 1626667422144,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "6ca89696c75488b1",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626667364955,
+        "stop" : 1626667365160,
+        "duration" : 205
+      }
+    }, {
+      "uid" : "563ed425e2d23c30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667075112,
+        "stop" : 1626667075438,
+        "duration" : 326
+      }
+    }, {
+      "uid" : "2ec6c1944aca0d38",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626666882684,
+        "stop" : 1626666882902,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "8ee67837e072c850",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626666583293,
+        "stop" : 1626666583511,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "e40457a13a8d5070",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626666527927,
+        "stop" : 1626666528174,
+        "duration" : 247
+      }
+    }, {
+      "uid" : "508ad96c1b8c2970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626666317354,
+        "stop" : 1626666317591,
+        "duration" : 237
+      }
+    }, {
+      "uid" : "3f0cf93280107c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626666120723,
+        "stop" : 1626666120936,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "324865db7111ef3d",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665847686,
+        "stop" : 1626665847930,
+        "duration" : 244
+      }
+    }, {
+      "uid" : "dcbbbaf24726273c",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665639700,
+        "stop" : 1626665639918,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "3fea44d06b84bb03",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665587116,
+        "stop" : 1626665587356,
+        "duration" : 240
+      }
+    }, {
+      "uid" : "7ac9991b94844467",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665391015,
+        "stop" : 1626665391244,
+        "duration" : 229
+      }
+    }, {
+      "uid" : "e04e9f77ed784c96",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665217990,
+        "stop" : 1626665218225,
+        "duration" : 235
+      }
+    }, {
+      "uid" : "668fcb70bacc5d50",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626665096290,
+        "stop" : 1626665096480,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "6b64974d8a49c2bb",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626664784590,
+        "stop" : 1626664784921,
+        "duration" : 331
+      }
+    }, {
+      "uid" : "f485dabbeb7b1605",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626664585258,
+        "stop" : 1626664585485,
+        "duration" : 227
+      }
+    }, {
+      "uid" : "13ed09db1f89a30e",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626664328170,
+        "stop" : 1626664328401,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "b86b0637e4e15285",
+      "status" : "failed",
+      "statusDetails" : "Актуальный статус код 400, ожидался 404: expected false to be truthy",
+      "time" : {
+        "start" : 1626663356791,
+        "stop" : 1626663357042,
+        "duration" : 251
+      }
+    }, {
+      "uid" : "f4aea7e56a5e4adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626629720186,
+        "stop" : 1626629720385,
+        "duration" : 199
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb6b36a43657d4e.json",
+  "parameterValues" : [ ]
+}

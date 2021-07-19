@@ -1,0 +1,310 @@
+{
+  "uid" : "ad07104d4fd69b8d",
+  "name" : "Поиск случайного ID",
+  "fullName" : "Поиск случайного ID",
+  "historyId" : "09862e2c0b68b2ca0030f1d98b5b4530",
+  "time" : {
+    "start" : 1626669497260,
+    "stop" : 1626669497724,
+    "duration" : 464
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "выполнен запрос GET /getAllByLetter c параметром limit=2",
+      "time" : {
+        "start" : 1626669497266,
+        "stop" : 1626669497712,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fd4ca8ec088ef7a",
+        "name" : "attachment",
+        "source" : "2fd4ca8ec088ef7a.json",
+        "type" : "application/json",
+        "size" : 17905
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "выполнена проверка соответствия значения имен кота из запроса с ожидаемым",
+      "time" : {
+        "start" : 1626669497713,
+        "stop" : 1626669497721,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "выполнена проверка соответствия значений",
+        "time" : {
+          "start" : 1626669497713,
+          "stop" : 1626669497721,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6339605c2ca28bf",
+          "name" : "expected",
+          "source" : "6339605c2ca28bf.txt",
+          "type" : "text/plain",
+          "size" : 3
+        }, {
+          "uid" : "a46b004cb0600689",
+          "name" : "actual",
+          "source" : "a46b004cb0600689.txt",
+          "type" : "text/plain",
+          "size" : 3
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf1b0457929fb937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626669243862,
+        "stop" : 1626669244365,
+        "duration" : 503
+      }
+    }, {
+      "uid" : "a48326acc32181f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626668092652,
+        "stop" : 1626668093142,
+        "duration" : 490
+      }
+    }, {
+      "uid" : "9832868ee29b712c",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626667966247,
+        "stop" : 1626667966979,
+        "duration" : 732
+      }
+    }, {
+      "uid" : "aa1d6f3cf43eacf",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626667826591,
+        "stop" : 1626667827129,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "2310eaf95502956c",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626667689635,
+        "stop" : 1626667690207,
+        "duration" : 572
+      }
+    }, {
+      "uid" : "b01b002acc63a7fd",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626667420843,
+        "stop" : 1626667421498,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "eb942ec047589add",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626667364109,
+        "stop" : 1626667364699,
+        "duration" : 590
+      }
+    }, {
+      "uid" : "f4c71372191cb4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626667074215,
+        "stop" : 1626667074617,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "926e3e1eec9a5aba",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626666881840,
+        "stop" : 1626666882416,
+        "duration" : 576
+      }
+    }, {
+      "uid" : "c0fce3cf384fbf13",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626666582465,
+        "stop" : 1626666582986,
+        "duration" : 521
+      }
+    }, {
+      "uid" : "ae8bd6d9ec7a1ff5",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626666526703,
+        "stop" : 1626666527423,
+        "duration" : 720
+      }
+    }, {
+      "uid" : "e9c9f1947af6dedc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626666316541,
+        "stop" : 1626666316919,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "ab4f3482ecb2396f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626666119851,
+        "stop" : 1626666120252,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "eadcfea7b3cf24a0",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'id' of undefined",
+      "time" : {
+        "start" : 1626665846956,
+        "stop" : 1626665847372,
+        "duration" : 416
+      }
+    }, {
+      "uid" : "f2236311e3dd6955",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626665638820,
+        "stop" : 1626665639399,
+        "duration" : 579
+      }
+    }, {
+      "uid" : "e0272d5b8506b87e",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626665585152,
+        "stop" : 1626665585738,
+        "duration" : 586
+      }
+    }, {
+      "uid" : "2f2e484617df2a7b",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626665390142,
+        "stop" : 1626665390713,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "ccf903349deb821",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626665217104,
+        "stop" : 1626665217654,
+        "duration" : 550
+      }
+    }, {
+      "uid" : "87dfdda4f1441f26",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626665095352,
+        "stop" : 1626665095997,
+        "duration" : 645
+      }
+    }, {
+      "uid" : "ec3be65f499ad7c1",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626664783664,
+        "stop" : 1626664784243,
+        "duration" : 579
+      }
+    }, {
+      "uid" : "b6d6403c6a222c8a",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626664583169,
+        "stop" : 1626664584993,
+        "duration" : 1824
+      }
+    }, {
+      "uid" : "f4e84b43c561b322",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626664326771,
+        "stop" : 1626664327901,
+        "duration" : 1130
+      }
+    }, {
+      "uid" : "62f145435d2f6fab",
+      "status" : "broken",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "time" : {
+        "start" : 1626663353474,
+        "stop" : 1626663356281,
+        "duration" : 2807
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad07104d4fd69b8d.json",
+  "parameterValues" : [ ]
+}

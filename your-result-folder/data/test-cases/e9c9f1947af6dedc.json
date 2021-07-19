@@ -1,0 +1,33 @@
+{
+  "uid" : "e9c9f1947af6dedc",
+  "name" : "Поиск случайного ID",
+  "fullName" : "Поиск случайного ID",
+  "historyId" : "09862e2c0b68b2ca0030f1d98b5b4530",
+  "time" : {
+    "start" : 1626666316541,
+    "stop" : 1626666316919,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9c9f1947af6dedc.json",
+  "parameterValues" : [ ]
+}

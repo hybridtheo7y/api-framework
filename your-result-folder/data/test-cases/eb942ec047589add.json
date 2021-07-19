@@ -1,0 +1,102 @@
+{
+  "uid" : "eb942ec047589add",
+  "name" : "Поиск случайного ID",
+  "fullName" : "Поиск случайного ID",
+  "historyId" : "09862e2c0b68b2ca0030f1d98b5b4530",
+  "time" : {
+    "start" : 1626667364109,
+    "stop" : 1626667364699,
+    "duration" : 590
+  },
+  "status" : "broken",
+  "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+  "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)\n    at Object.writeFileSync (fs.js:1517:5)\n    at AllureWriter.writeAttachment (node_modules\\allure-js-commons\\src\\writers\\AllureWriter.ts:26:5)\n    at AllureRuntime.writeAttachment (node_modules\\allure-js-commons\\src\\AllureRuntime.ts:37:17)\n    at AllureReporter.writeAttachment (node_modules\\allure-mocha\\src\\AllureReporter.ts:139:31)\n    at MochaAllure.attachment (node_modules\\allure-mocha\\src\\MochaAllure.ts:65:32)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:40:14\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Object.equal (src\\steps\\HwSteps.ts:39:25)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:20:38\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Context.<anonymous> (tests\\hw1.ts:18:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+    "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)\n    at Object.writeFileSync (fs.js:1517:5)\n    at AllureWriter.writeAttachment (node_modules\\allure-js-commons\\src\\writers\\AllureWriter.ts:26:5)\n    at AllureRuntime.writeAttachment (node_modules\\allure-js-commons\\src\\AllureRuntime.ts:37:17)\n    at AllureReporter.writeAttachment (node_modules\\allure-mocha\\src\\AllureReporter.ts:139:31)\n    at MochaAllure.attachment (node_modules\\allure-mocha\\src\\MochaAllure.ts:65:32)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:40:14\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Object.equal (src\\steps\\HwSteps.ts:39:25)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:20:38\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Context.<anonymous> (tests\\hw1.ts:18:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "выполнен запрос GET /getAllByLetter c параметром limit=1",
+      "time" : {
+        "start" : 1626667364115,
+        "stop" : 1626667364589,
+        "duration" : 474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "417cfd727c2963e6",
+        "name" : "attachment",
+        "source" : "417cfd727c2963e6.json",
+        "type" : "application/json",
+        "size" : 17897
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "выполнена проверка соответствия значения имен кота из запроса с ожидаемым",
+      "time" : {
+        "start" : 1626667364590,
+        "stop" : 1626667364695,
+        "duration" : 105
+      },
+      "status" : "broken",
+      "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+      "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)\n    at Object.writeFileSync (fs.js:1517:5)\n    at AllureWriter.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\writers\\AllureWriter.ts:26:5)\n    at AllureRuntime.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\AllureRuntime.ts:37:17)\n    at AllureReporter.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\AllureReporter.ts:139:31)\n    at MochaAllure.attachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:65:32)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:40:14\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Object.equal (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:39:25)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:20:38\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Context.<anonymous> (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:18:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "steps" : [ {
+        "name" : "выполнена проверка соответствия значений",
+        "time" : {
+          "start" : 1626667364590,
+          "stop" : 1626667364695,
+          "duration" : 105
+        },
+        "status" : "broken",
+        "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)",
+        "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (200)\n    at Object.writeFileSync (fs.js:1517:5)\n    at AllureWriter.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\writers\\AllureWriter.ts:26:5)\n    at AllureRuntime.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\AllureRuntime.ts:37:17)\n    at AllureReporter.writeAttachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\AllureReporter.ts:139:31)\n    at MochaAllure.attachment (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:65:32)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:40:14\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Object.equal (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\src\\steps\\HwSteps.ts:39:25)\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:20:38\n    at C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-js-commons\\src\\ExecutableItemWrapper.ts:83:18\n    at StepWrapper.run (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\StepWrapper.ts:19:32)\n    at MochaAllure.step (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\node_modules\\allure-mocha\\src\\MochaAllure.ts:38:28)\n    at Context.<anonymous> (C:\\Users\\Сергей\\WebstormProjects\\api-framework\\tests\\hw1.ts:18:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Удаление случайного кота"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb942ec047589add.json",
+  "parameterValues" : [ ]
+}
