@@ -1,0 +1,499 @@
+{
+  "groups": [
+    {
+      "title": "А",
+      "cats": [
+        {
+          "id": 102369,
+          "name": "Адонис",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "111"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 111
+    },
+    {
+      "title": "Б",
+      "cats": [
+        {
+          "id": 101323,
+          "name": "Баракка",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "96"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 96
+    },
+    {
+      "title": "В",
+      "cats": [
+        {
+          "id": 101359,
+          "name": "Валленда",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "39"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 39
+    },
+    {
+      "title": "Г",
+      "cats": [
+        {
+          "id": 102518,
+          "name": "Галахад",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "63"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 63
+    },
+    {
+      "title": "Д",
+      "cats": [
+        {
+          "id": 1934124,
+          "name": "Дайске",
+          "description": "",
+          "tags": null,
+          "gender": "unisex",
+          "likes": 1008,
+          "dislikes": 1005,
+          "count_by_letter": "85"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 85
+    },
+    {
+      "title": "Е",
+      "cats": [
+        {
+          "id": 102610,
+          "name": "Емельян",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "9"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 9
+    },
+    {
+      "title": "Ё",
+      "cats": [
+        {
+          "id": 1753491,
+          "name": "Ёя",
+          "description": null,
+          "tags": null,
+          "gender": "unisex",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "4"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 4
+    },
+    {
+      "title": "Ж",
+      "cats": [
+        {
+          "id": 101442,
+          "name": "Жанетта",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "16"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 16
+    },
+    {
+      "title": "З",
+      "cats": [
+        {
+          "id": 102627,
+          "name": "Замора",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 1,
+          "dislikes": 0,
+          "count_by_letter": "19"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 19
+    },
+    {
+      "title": "И",
+      "cats": [
+        {
+          "id": 102644,
+          "name": "Иеремия",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "38"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 38
+    },
+    {
+      "title": "Й",
+      "cats": [
+        {
+          "id": 101491,
+          "name": "Йоко",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "1"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 1
+    },
+    {
+      "title": "К",
+      "cats": [
+        {
+          "id": 102666,
+          "name": "Казанова",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "173"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 173
+    },
+    {
+      "title": "Л",
+      "cats": [
+        {
+          "id": 101856,
+          "name": "Лайла",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 1,
+          "count_by_letter": "63"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 63
+    },
+    {
+      "title": "М",
+      "cats": [
+        {
+          "id": 101895,
+          "name": "Магнолия",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "152"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 152
+    },
+    {
+      "title": "Н",
+      "cats": [
+        {
+          "id": 101969,
+          "name": "Надира",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "93"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 93
+    },
+    {
+      "title": "О",
+      "cats": [
+        {
+          "id": 102025,
+          "name": "Одези",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "67"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 67
+    },
+    {
+      "title": "П",
+      "cats": [
+        {
+          "id": 102066,
+          "name": "Палома",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "58"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 58
+    },
+    {
+      "title": "Р",
+      "cats": [
+        {
+          "id": 102959,
+          "name": "Рассел",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "70"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 70
+    },
+    {
+      "title": "С",
+      "cats": [
+        {
+          "id": 102120,
+          "name": "Сабра",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "104"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 104
+    },
+    {
+      "title": "Т",
+      "cats": [
+        {
+          "id": 102168,
+          "name": "Табу",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "73"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 73
+    },
+    {
+      "title": "У",
+      "cats": [
+        {
+          "id": 103108,
+          "name": "Уилфред",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "24"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 24
+    },
+    {
+      "title": "Ф",
+      "cats": [
+        {
+          "id": 102218,
+          "name": "Файти",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "56"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 56
+    },
+    {
+      "title": "Х",
+      "cats": [
+        {
+          "id": 103156,
+          "name": "Хавье",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "60"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 60
+    },
+    {
+      "title": "Ц",
+      "cats": [
+        {
+          "id": 103188,
+          "name": "Цербер",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "11"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 11
+    },
+    {
+      "title": "Ч",
+      "cats": [
+        {
+          "id": 103194,
+          "name": "Чейз",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "13"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 13
+    },
+    {
+      "title": "Ш",
+      "cats": [
+        {
+          "id": 103200,
+          "name": "Шаман",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "36"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 36
+    },
+    {
+      "title": "Э",
+      "cats": [
+        {
+          "id": 103230,
+          "name": "Эверест",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "67"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 67
+    },
+    {
+      "title": "Ю",
+      "cats": [
+        {
+          "id": 102340,
+          "name": "Юзара",
+          "description": null,
+          "tags": null,
+          "gender": "female",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "12"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 12
+    },
+    {
+      "title": "Я",
+      "cats": [
+        {
+          "id": 103276,
+          "name": "Яр",
+          "description": null,
+          "tags": null,
+          "gender": "male",
+          "likes": 0,
+          "dislikes": 0,
+          "count_by_letter": "8"
+        }
+      ],
+      "count_in_group": 1,
+      "count_by_letter": 8
+    }
+  ],
+  "count_output": 29,
+  "count_all": 1621
+}
