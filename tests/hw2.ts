@@ -49,8 +49,8 @@ describe('Тест-сьют проверки лайков/дизлайков', a
       const response = await CoreApi.getCatById(rand_ID);
       assert.ok(response.status === 200, 'Неверный статус ответа, кот не найден!')
       Num_of_likes = response.data.cat.likes
-      const msg3 = `У кота ${CatName}  - ${Num_of_likes} лайка(ов)`
-      console.info('тест 2 🚀:', msg3);
+      const msg = `У кота ${CatName}  - ${Num_of_likes} лайка(ов)`
+      console.info('тест 2 🚀:', msg);
       assert.equal(response.data.cat.likes,  Num_of_likes, `Значения не совпадают! `);
     });
 
