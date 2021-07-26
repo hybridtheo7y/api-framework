@@ -32,6 +32,9 @@ describe('Тест-сьют проверки лайков/дизлайков', a
     console.log(msg);
 
   });
+  after(() => {
+    console.log('Тестирование завершено!')
+  });
 
   it('Проверка лайков', async () => {
     await allure.step(`выполним запрос GET cats/get-by-id c параметром ${rand_ID}`, async () => {
